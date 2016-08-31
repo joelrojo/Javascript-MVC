@@ -1,0 +1,33 @@
+.racer_board {
+  width: 910px;
+  height: 215px;
+  background-color: black;
+}
+
+.racer_table td.active {
+  background-color: black;
+}
+
+#player1 {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	left: 0;
+	top: 0px;
+
+}
+
+#player2 {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	left: 0;
+	top: 100px;
+}
+
+.road {
+	height: 100px;
+	width: 900px;
+	border: 3px dashed yellow;
+/*	border-bottom: 3px dashed yellow;
+*/}
